@@ -22,7 +22,7 @@ document.body.onkeydown = function(e) {
   }
 }
 
-document.body.ontouchstart = function(e) {
+document.ontouchstart = function(e) {
   space_pressed = true
 }
 
