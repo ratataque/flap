@@ -21,6 +21,11 @@ document.body.onkeydown = function(e) {
     console.log(space_pressed)
   }
 }
+
+document.body.ontouchstart = function(e) {
+  space_pressed = true
+}
+
 function randomIntFromInterval(min, max) { // min and max included 
   return Math.floor(Math.random() * (max - min + 1) + min)
 }
