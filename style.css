@@ -13,6 +13,8 @@ body {
   height: 10vh;
   width: 10vh;
   background-color: red;
+  /* background-image: url("./img/bird.png"); */
+  /* background-size: contain; */
   bottom: 50vh;
   left: 15vw;
   border-radius: 10vh;
@@ -22,20 +24,14 @@ body {
 #pip1 {
   left: 40vw;
 }
-#pip2 {
-  left: 55vw;
-}
 #pip3 {
   left: 70vw;
-}
-#pip4 {
-  left: 85vw;
 }
 #pip5 {
   left: 100vw;
 }
 #pip6 {
-  left: 115vw;
+  left: 130vw;
 }
 
 .pip_cont {
@@ -51,6 +47,9 @@ body {
   width: auto;
   height: 30vh;
   background-color: purple;
+  /* background-image: url("./img/pipe.png"); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
 }
 .trou {
   width: auto;
@@ -63,3 +62,10 @@ body {
   background-color: purple;
 }
 
+.score {
+  color: red;
+  position: absolute;
+  z-index: 10;
+  font-size: 20vh;
+  font-family: sans-serif;
+}
